@@ -1,0 +1,31 @@
+th
+{
+    font-size: 32pt;
+    border: 2px solid black;
+    width: 250px;
+    padding: 25px;
+}
+td
+{
+    padding: 20px;
+}
+table
+{
+    border: 5px solid black;
+    
+
+}
+caption
+{
+    font-size: 48pt;
+    font-weight: bold;
+    color: darkblue;
+}
+#tableheader
+{
+    text-decoration: underline;
+}
+.tablerow
+{
+    color: blue
+}
