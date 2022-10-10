@@ -2,15 +2,22 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8">
+		<link rel="stylesheet" href="css/table.css">
 		<title>
 			Superhero
 		</title>
+		<!--
 		<style>
 			th
 			{
 				font-size: 32pt;
 				border: 2px solid black;
 				width: 250px;
+				padding: 25px;
+			}
+			td
+			{
+				padding: 20px;
 			}
 			table
 			{
@@ -18,26 +25,41 @@
 				
 
 			}
+			caption
+			{
+				font-size: 48pt;
+				font-weight: bold;
+				color: darkblue;
+			}
+			#tableheader
+			{
+				text-decoration: underline;
+			}
+			.tablerow
+			{
+				color: blue
+			}
 		</style>
+		-->
 	</head>
 	<body>
-		<h1>Favorite Superheroes</h1>
 		<table>
-			<tr style="font-size: 200%">
+			<caption>Favorite Superheroes</caption>
+			<tr id="tableheader">
 				<th scope="col">Name</th>
 				<th scope="col">Alias</th>
 				<th scope="col">Image</th>
 				<th scope="col">Superpower</th>
 				<th scope="col">Weakness</th>
 			</tr>
-			<tr>
+			<tr class="tablerow">
 				<th scope="row">Robin</th>
 				<td>Dick Grayson</td>
 				<td><a href="images/Robin_29.jpg"><img src="images/Robin_29.jpg" alt="Robin Pic" height="100px"></a></td>
 				<td>knows Batman</td>
 				<td>no real superpowers</td>
 			</tr>
-			<tr>
+			<tr class="tablerow">
 				<th scope="row">Thor</th>
 				<td>Thor Odinson</td>
 				<td><a href="images/thor.jpg"><img src="images/thor.jpg" alt="Thor Pic" height="100px"></a></td>
