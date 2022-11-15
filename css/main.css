@@ -12,3 +12,11 @@ ul
 {
     font-size: 18pt;
 }
+p
+{
+    font-size: 2.5vmax;
+}
+img
+{
+    width: 40vmax;
+}
